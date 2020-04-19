@@ -57,10 +57,19 @@ from sklearn.preprocessing import OneHotEncoder # Module for One Hot Encoding
 from sklearn.preprocessing import LabelEncoder # Module for Label Encoding
 le =LabelEncoder()
 y = le.fit_transform(y) # No need for this to be numpy array
+
+from sklearn.preprocessing import StandardScaler # Module for standardisation feature scaling
+sc = StandardScaler()
+X = sc.fit_transform(X) # Keeps X as a numpy array
 ```
 
 **model_selection**
 ```python
 from sklearn.model_selection import train_test_split
+
+
+import sklearn.model_selection import train_test_split # Module for splitting training data and test data, this is a function import
+# train_test_split(X matrix,y matrix,test_size= percentage of data to be in test set, random_state=0 (Optional) )
+# return :  [X_train, X_test, Y_train, Y_test]
 ```
 
