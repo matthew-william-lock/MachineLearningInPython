@@ -3,7 +3,7 @@ This provides a simple readme with some documentation and tips regarding machine
 
 # Numpy
 Allows you to work with arrays and do mathametical operations
-'''
+'''python
 import numpy as np
 '''
 
