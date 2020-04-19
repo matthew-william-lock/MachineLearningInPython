@@ -41,19 +41,23 @@ X[:,1:3] = imputer.transform(X[:,1:3])     # Performs transformation and replace
 
 **compose**
 ```python
-from sklearn.preprocessing import OneHotEncoder # Module for One Hot Encoding
-```
-
-**preprocessing**
-```python
 from sklearn.compose import ColumnTransformer
 # ColumnTransformer(
 #     transformers=[(typeOfTransformation,NameOfTheClassForTheTransformation,[columnsToApplyTo])],
 #     remainder = what to do with columns with no transformation
 #     )
-ct = ColumnTransformer(transformers=[('encoder',OneHotEncoder,[0])],remainder='passthrough') # 'passthrough' leaves columns as is
+ct = ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[0])],remainder='passthrough') # 'passthrough' leaves columns as is
+X = np.array(ct.fit_transform(X)) # Fit and transform the data in one step, force output to numpy array
 ```
 
+**preprocessing**
+```python
+from sklearn.preprocessing import OneHotEncoder # Module for One Hot Encoding
+
+from sklearn.preprocessing import LabelEncoder # Module for Label Encoding
+le =LabelEncoder()
+y = le.fit_transform(y) # No need for this to be numpy array
+```
 
 **model_selection**
 ```python
