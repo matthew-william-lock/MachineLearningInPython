@@ -1,5 +1,17 @@
 # Machine Learning In Python
-This provides a simple readme with some documentation and tips regarding machine learning in Python.
+
+This git page provides a simple readme with some documentation and tips regarding machine learning in Python.
+The intended use of this page was to serve as a personal refernce sheet when developing machine learning model using Python, 
+but I have decided to share with whoever else might find these resources useful.
+Contained in the repository are:
+- Guides :
+    - data_preprocessing
+    - regression
+- Templates
+    - data_preprocessing templates
+    - data_preprocessing tools
+
+Finally, all the resources found in this repository have been compiled from the [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/ "Machine Learning A-Z") course by  Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, SuperDataScience Support. I do not credit for any of the code written here and simplt aim to use this as a foundation when developing code for my own application.
 
 # Numpy
 Allows you to work with arrays and do mathametical operations
