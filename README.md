@@ -11,7 +11,7 @@ Contained in the repository are:
     - data_preprocessing templates
     - data_preprocessing tools
 
-Finally, all the resources found in this repository have been compiled from the [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/ "Machine Learning A-Z") course by  Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, SuperDataScience Support. I do not credit for any of the code written here and simplt aim to use this as a foundation when developing code for my own application.
+Finally, all the resources found in this repository have been compiled from the [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/ "Machine Learning A-Z") course by  Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, SuperDataScience Support. I do not credit for any of the code written here and simply aim to use this as a foundation when developing code for my own application.
 
 # Numpy
 Allows you to work with arrays and do mathametical operations
