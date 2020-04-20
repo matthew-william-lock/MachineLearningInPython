@@ -2,7 +2,7 @@
 
 This git page provides a simple readme with some documentation and tips regarding machine learning in Python.
 The intended use of this page was to serve as a personal refernce sheet when developing machine learning model using Python, 
-but I have decided to share with whoever else might find these resources useful.
+but I have decided to share with whoever else might find these resources useful. <br>
 Contained in the repository are:
 - Guides :
     - data_preprocessing
@@ -23,6 +23,16 @@ import numpy as np
 Allows you to build chart
 ```python
 import matplotlib.pyplot as plt
+```
+
+**Scatter plot with regression line**:
+```python
+plt.scatter(X_train, y_train,color='red')
+plt.plot(X_train,regressor.predict(X_train),color='blue')
+plt.title('Salary vs Experience')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary (R)')
+plt.show()
 ```
 
 # Panda 
@@ -84,4 +94,11 @@ import sklearn.model_selection import train_test_split # Module for splitting tr
 # train_test_split(X matrix,y matrix,test_size= percentage of data to be in test set, random_state=0 (Optional) )
 # return :  [X_train, X_test, Y_train, Y_test]
 ```
+**model**
+```python
+from sklearn.linear_model import LinearRegression # Linear Regression Model
+regressor = LinearRegression() 
+regressor.fit(X_train,y_train)
+```
+
 
