@@ -1,4 +1,4 @@
-# simple Linear Regression
+# Simple Linear Regression
 
 This guide provides you with a simple walkthrough on how to create a simple Linear Regression Model using Python tools.
 Contained in this guide is:

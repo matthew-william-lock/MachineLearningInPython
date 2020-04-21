@@ -35,6 +35,21 @@ plt.ylabel('Salary (R)')
 plt.show()
 ```
 
+**Set decimal points**:
+```python
+np.set_printoptions(precision=2)
+```
+
+**Set concatenate**:
+```python
+np.concatenate()
+```
+
+**Reshape**:
+```python
+array.reshape(columns, rows)
+```
+
 # Panda 
 Allows you to import a dataset and easily create vectors and matrices
 ```python
@@ -94,11 +109,13 @@ import sklearn.model_selection import train_test_split # Module for splitting tr
 # train_test_split(X matrix,y matrix,test_size= percentage of data to be in test set, random_state=0 (Optional) )
 # return :  [X_train, X_test, Y_train, Y_test]
 ```
-**model**
+
+**linear_model**
 ```python
 from sklearn.linear_model import LinearRegression # Linear Regression Model
 regressor = LinearRegression() 
-regressor.fit(X_train,y_train)
+regressor.fit(X_train,y_train) # trains simple and multiple Linear Regression Model
+y_pred = regressor.predict(X_test) # uses model to make a prediction
 ```
 
 

@@ -1,4 +1,4 @@
-# simple Linear Regression Template
+# Simple Linear Regression Template
 
 Template for implementing simple Linear Regression Model using Python tools.
 Contains: 
