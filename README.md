@@ -6,9 +6,9 @@ but I have decided to share with whoever else might find these resources useful.
 - Guides :
     1. data_preprocessing
     2. regression
-        2.1 Simple Linear Regression
-        2.2 Multiple Linear Regression
-        2.2 Polynomial Linear Regression
+        1. Simple Linear Regression
+        2. Multiple Linear Regression
+        3. Polynomial Linear Regression
 - Templates
     - data_preprocessing templates
     - data_preprocessing tools
