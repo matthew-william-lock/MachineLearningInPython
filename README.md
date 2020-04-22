@@ -2,7 +2,7 @@
 
 This git page provides a simple readme with some documentation and tips regarding machine learning in Python.
 The intended use of this page was to serve as a personal refernce sheet when developing machine learning models using Python, 
-but I have decided to share with whoever else might find these resources useful. Contained withinin the repository is:
+but I have decided to share with whoever else might find these resources useful. Contained within the repository :
 - Guides :
     - data_preprocessing
     - regression
