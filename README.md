@@ -97,6 +97,11 @@ y = le.fit_transform(y) # No need for this to be numpy array
 from sklearn.preprocessing import StandardScaler # Module for standardisation feature scaling
 sc = StandardScaler()
 X = sc.fit_transform(X) # Keeps X as a numpy array
+
+from sklearn.preprocessing import PolynomialFeatures # Transformer module
+sc = StandardScaler()
+poly_reg = PolynomialFeatures(degree=2)
+X_poly = poly_reg.fit_transform(X) # Tool to transfer matrix of features X to X_poly by adding additional polynomial terms
 ```
 
 **model_selection**
