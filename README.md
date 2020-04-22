@@ -4,8 +4,11 @@ This git page provides a simple readme with some documentation and tips regardin
 The intended use of this page was to serve as a personal refernce sheet when developing machine learning models using Python, 
 but I have decided to share with whoever else might find these resources useful. Contained within the repository :
 - Guides :
-    - data_preprocessing
-    - regression
+    1. data_preprocessing
+    2. regression
+        2.1 Simple Linear Regression
+        2.2 Multiple Linear Regression
+        2.2 Polynomial Linear Regression
 - Templates
     - data_preprocessing templates
     - data_preprocessing tools
